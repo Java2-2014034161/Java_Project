@@ -7,7 +7,7 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 
 
-
+//Ctrl+Shift+O
 
 public class Mylab {
 
@@ -28,10 +28,10 @@ public class Mylab {
 		panel.add(label2);
 		panel.add(field2);
 		panel.add(button);
-  		f.setSize(300, 150);
-		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+  		f.setSize(300, 150);		//프레임크기
+		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);	//close 버튼 누르면 전체 프로그램 종료
 		f.setTitle("온도변환기");
-		f.setVisible(true);
+		f.setVisible(true);		//프레임을 화면에 나타나게 만든다
 
 	}
 

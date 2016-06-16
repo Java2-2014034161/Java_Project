@@ -36,15 +36,15 @@ public class KeyEventTest extends JFrame implements KeyListener{
 		new KeyEventTest();
 	}
 	
-	public void keyTyped(KeyEvent e){
+	public void keyTyped(KeyEvent e){//사용자가 글자를 입력했을 경우 호출
 		display(e, "Key Typed         ");
 	}
 	
-	public void keyPressed(KeyEvent e){
+	public void keyPressed(KeyEvent e){//사용자가 키를 눌렀을 경우 호출
 		display(e, "Key Pressed            ");
 	}
 
-	public void keyReleased(KeyEvent e){
+	public void keyReleased(KeyEvent e){//사용자가 키에서 손을 떼었을 경우 호출
 		display(e, "Key Released  ");
 	}
 	

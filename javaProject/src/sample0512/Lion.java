@@ -1,6 +1,6 @@
 package sample0512;
 
-public class Lion extends Animal{
+public class Lion extends Animal{	//Animal을 상속하여 Lion클래스를 정의한다.
 	private int legs;
 	
 

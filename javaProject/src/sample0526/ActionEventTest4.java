@@ -1,5 +1,7 @@
 package sample0526;
 
+//무명 클래스 사용
+
 import javax.swing.*;
 import java.awt.event.*;
 
@@ -18,6 +20,7 @@ class YourFrame extends JFrame {
 		label = new JLabel("아직 버튼이 눌러지지 않았습니다");
 		
 		button.addActionListener(new ActionListener(){
+			//무명클래스 정의. 무명 클래스 안에서 action~() 메소드를 정의
 			public void actionPerformed(ActionEvent e){
 				if(e.getSource() == button){
 					label.setText("마침내 버튼이 눌려졌습니다.");

@@ -1,5 +1,7 @@
 package sample0526;
 
+//리스너 클래스를 내부클래스로 작성
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 

@@ -1,5 +1,7 @@
 package sample0602;
 
+//마우스로 자동차 이동하기
+
 import java.awt.Graphics;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
